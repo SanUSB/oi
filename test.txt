@@ -1,0 +1,27 @@
+Instale o Git o git para Linux: https://book.git-scm.com/download/linux
+
+
+Salientando que todos os comandos git podem ser realizadas de forma interativa no próprio Github como um pull request. Uma alteração de 
+outro usuário.
+
+
+Vá no github, crie novo repositório, entre numa pasta e siga as instruções (indicadas pelo github):
+
+create a new repository on the command line:
+echo "# oi" >> README.md
+git init  		      # É criado uma pasta oculto .git com arquivos de controle e pastas ocultas
+git add README.md 
+git add . 		      # adiciona todos os arquivos que não estavam inicialmente à pasta index (intermedária)
+git commit -m "first commit"  #repassa os arquivos para a pasta HEAD com commit
+git remote add origin https://github.com/SanUSB/oi.git  #endereça o repositório remoto
+git push -u origin master     #posta os arquivos na branch (filial) master
+
+Para resgatar a última versão do repositório:
+
+git clone https://github.com/SanUSB/EspCloudUpdate.git <nome da pasta no pc>
+
+ ou 
+
+git init
+git pull https://github.com/SanUSB/EspCloudUpdate
+
