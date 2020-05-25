@@ -5,6 +5,7 @@ Tutorial em: https://youtu.be/9QRauzuaX2M
 
 Salientando que todos os comandos git podem ser realizadas de forma interativa no próprio Github, como alterações nos arquivos e um pull request com uma sugestão de outro usuário.
 
+
 Entre no github, crie um novo repositório, entre numa pasta no pc e siga as instruções (indicadas pelo github):
 
 # Create a new repository on the command line:
@@ -29,3 +30,4 @@ Para resgatar a última versão do repositório:
 
 Inserir a chave ssh e a URL Webhook no projeto do Github (private, funcionou public) -> em settings -> Webhooks.
 Todo o conteúdo que for enviado via push no github será atualizado na página do servidor hostinger.
+Testado e funciona somente quando o repositório é public (settings -> public).
