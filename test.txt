@@ -1,5 +1,6 @@
 # Introdução ao Git e Deploy automático no servidor
 Instale o Git o git para Linux: https://book.git-scm.com/download/linux
+
 Tutorial em: https://youtu.be/9QRauzuaX2M
 
 Salientando que todos os comandos git podem ser realizadas de forma interativa no próprio Github, como alterações nos arquivos e um pull request com uma sugestão de outro usuário.
@@ -21,6 +22,7 @@ git clone https://github.com/SanUSB/oi.git <nome da pasta no pc>
  ou 
 
 git init
+
 git pull https://github.com/SanUSB/oi
 
 # Deploy Automático:
