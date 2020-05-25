@@ -1,4 +1,5 @@
 # Deploy automático do Github no servidor
+
 Instale o Git o git para Linux: https://book.git-scm.com/download/linux
 
 Tutorial em: https://youtu.be/9QRauzuaX2M
