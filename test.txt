@@ -25,4 +25,4 @@ git clone https://github.com/SanUSB/EspCloudUpdate.git <nome da pasta no pc>
 git init
 git pull https://github.com/SanUSB/EspCloudUpdate
 
-
+Deploy
