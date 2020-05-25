@@ -27,5 +27,5 @@ Para resgatar a última versão do repositório:
 
 # Deploy Automático:
 
-Inserir a chave ssh e a URL Webhook no projeto do Github (private) -> em settings -> Webhooks.
+Inserir a chave ssh e a URL Webhook no projeto do Github (private, funcionou public) -> em settings -> Webhooks.
 Todo o conteúdo que for enviado via push no github será atualizado na página do servidor hostinger.
