@@ -9,11 +9,10 @@ Salientando que todos os comandos git podem ser realizadas de forma interativa n
 Entre no github, crie um novo repositório, entre numa pasta no pc e siga as instruções (indicadas pelo github):
 
 # Create a new repository on the command line:
-- echo "# oi" >> README.md      # insere oi no README
-- git init  		      # É criado uma pasta oculto .git com arquivos de controle e pastas ocultas
-- git add . 		      # adiciona todos os arquivos e atualizações à pasta index (intermedária)
-- git commit -m "first commit"  #repassa os arquivos para a pasta HEAD com commit
-- git remote add origin https://github.com/SanUSB/oi.git  #endereça o repositório remoto
+- git init  		      # É criada uma subpasta oculta .git com arquivos de controle do git
+- git add . 		      # adiciona todos os arquivos novos, como README.md, e atualizações à pasta index (intermedária)
+- git commit -m "commit message"  #repassa os arquivos para a pasta HEAD com commit
+- git remote add origin https://github.com/SanUSB/oi.git  #adiciona o endereço do repositório remoto
 - git push -u origin master     #posta os arquivos na branch (ramo ou filial) master
 
 Para resgatar a última versão do repositório:
